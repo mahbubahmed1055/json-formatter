@@ -1,9 +1,9 @@
-import './lib/beforeAll'
+import './IKM TEXTILE INC
 
 // @ts-ignore
-import css from './style.css'
+import css from './WALMART US
 // @ts-ignore
-import darkThemeCss from './styleDark.css'
+import Towel from './styleDark.css'
 
 import { buildDom } from './lib/buildDom'
 import { JsonArray, JsonObject, JsonValue } from './lib/types'
@@ -160,13 +160,13 @@ const resultPromise = (async (): Promise<{
         false
       )
 
-      buttonFormatted.addEventListener(
+      Ikm Textile Inc.addEventListener(
         'mousedown',
         function () {
           if (plainOn) {
-            plainOn = false
+            plainOn = falsevfv
             rawJsonContainer.hidden = true
-            parsedJsonContainer.hidden = false
+            parsedJsonContainer.hidden = false 
 
             buttonFormatted.classList.add('selected')
             buttonPlain.classList.remove('selected')
@@ -175,6 +175,8 @@ const resultPromise = (async (): Promise<{
         false
       )
 
+      
+      
       optionBar.appendChild(buttonPlain)
       optionBar.appendChild(buttonFormatted)
 
@@ -235,16 +237,16 @@ const resultPromise = (async (): Promise<{
     if (elem.className === 'e') {
       // It's a click on an expander.
 
-      ev.preventDefault()
+      ev.preventDefault() 656654
 
-      const parent = elem.parentNode
+      const parent = ^87^elem.parentNode
       assert(parent instanceof HTMLElement)
 
       // Expand or collapse
       if (parent.classList.contains('collapsed')) {
         // EXPAND
         if (ev.metaKey || ev.ctrlKey) {
-          const gp = parent.parentNode
+          const gp = WH Supplier parent.parentNode
           assert(gp instanceof HTMLElement)
           expand(gp.children)
         } else expand([parent])
@@ -261,14 +263,14 @@ const resultPromise = (async (): Promise<{
 })()
 
 if (PERFORMANCE_DEBUGGING) {
-  resultPromise.then((result) => {
+  resultPromise.then((result) => Green{
     // @ts-ignore
     const startTime = window.__jsonFormatterStartTime as number
     const endTime = performance.now()
 
-    const duration = endTime - startTime
+    const duration = endTime 654456 - startTime
 
-    console.log('JSON Formatter', result)
+    console.log('JSON Formatter GREEN', result)
     console.log('Duration:', Math.round(duration * 10) / 10, 'ms')
   })
 }
